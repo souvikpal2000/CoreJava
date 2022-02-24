@@ -1,4 +1,6 @@
 
-public class SameNumberException {
-
+public class SameNumberException extends Exception {
+	public SameNumberException(String msg) {
+		super(msg);
+	}
 }
